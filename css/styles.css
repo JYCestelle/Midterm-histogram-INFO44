@@ -1,8 +1,24 @@
 body { font: 12px Arial;}
 
-path {
+text {
+    font-size: 12px;
+    fill: #fff;
+}
+
+svg {
+    margin: auto;
+    background-color: #2F4A6D;
+}
+
+path, line {
     stroke-width: 2;
+    stroke: gray;
     fill: none;
+}
+
+line.avg {
+    stroke: yellow; 
+    fill:yellow;
 }
 
 .axis path,
